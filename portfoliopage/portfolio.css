@@ -43,7 +43,6 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   color: var(--color-white);
-  font-size: 1.8rem;
   text-shadow: 2px 1px 3px var(--text-shadow);
   font-weight: bold;
   letter-spacing: 1.45px;
@@ -210,15 +209,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.793);
-  color: var(--color-primary);
+  background-color: #625df56a;
+  color: var(--color-white);
   width: 6rem;
   height: 6rem;
   border-radius: 50%;
-  display: flex;
   position: fixed;
   right: 20px;
-  bottom: -50px;
+  bottom: -40px;
   cursor: pointer;
 }
 

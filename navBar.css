@@ -12,7 +12,7 @@
   text-decoration: none;
   text-transform: uppercase;
   color: var(--color-white);
-  font-size: 1.8rem;
+  font-size: 2rem;
   text-shadow: 2px 1px 1px var(--text-shadow);
   font-weight: bold;
   letter-spacing: 1.45px;
@@ -24,7 +24,7 @@
 .main-nav-link::after {
   content: "";
   position: absolute;
-  height: 35px;
+  height: 40px;
   left: 0;
   top: 9px;
   width: 0;
