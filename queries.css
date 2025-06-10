@@ -3,13 +3,13 @@
 @import url("variablesGenerales.css");
 
 @media (max-width: 774px) {
+  header {
+    width: 100%;
+  }
+
   .btn-mobile-nav {
     display: block;
     margin-right: 2rem;
-  }
-
-  header {
-    width: 100%;
   }
 
   .header-title {
