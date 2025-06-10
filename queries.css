@@ -5,13 +5,14 @@
 @media (max-width: 774px) {
   .btn-mobile-nav {
     display: inline-block;
-    position: fixed;
+    position: absolute;
     top: 1rem;
     right: 1rem;
-    z-index: 1000;
+    z-index: 10;
   }
 
   header {
+    position: relative;
     width: 100%;
   }
 
