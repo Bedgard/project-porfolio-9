@@ -1,0 +1,197 @@
+/* FIRST PAGE */
+
+@import url("variablesGenerales.css");
+
+@media (max-width: 774px) {
+  .btn-mobile-nav {
+    display: inline-block;
+    right: 5px;
+    position: fixed;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  .header-title {
+    font-size: 1.7rem;
+  }
+
+  .main-nav {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    display: inline-block;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+  }
+
+  .main-nav-list {
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    font-size: 1rem;
+  }
+
+  .main-nav-link {
+    font-size: 1.6rem;
+  }
+
+  .main-nav-link::after {
+    content: none;
+    display: none;
+  }
+
+  .main-nav-link:hover::after {
+    content: none;
+    display: none;
+  }
+
+  .header-content {
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .header-presentation {
+    text-align: center;
+  }
+
+  .header-name {
+    text-align: center;
+    font-size: 2.6rem;
+    margin-top: 0rem;
+  }
+
+  .header-work {
+    text-align: center;
+  }
+
+  .header-cv {
+    margin-left: 0rem;
+    margin-top: 2rem;
+  }
+
+  .information-list {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .section-about h2 {
+    font-size: 2.3rem;
+    text-align: center;
+  }
+
+  .informations-list-details-name {
+    font-size: 3.4rem;
+    margin-top: 4rem;
+    text-align: center;
+  }
+
+  .informations-list-details-job {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .informations-list-details-resume {
+    font-size: 2rem;
+    text-align: justify;
+    hyphens: auto;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+
+  .informations-datas {
+    display: block;
+    max-width: 45rem;
+    margin: 3rem auto;
+    padding: 2rem;
+    border-radius: 4rem;
+    background-color: #e5e5f5;
+    box-shadow: 5px 5px 12px;
+  }
+
+  .informations-datas li {
+    font-size: 1.5rem;
+  }
+
+  .informations-datas span {
+    font-size: 1.6rem;
+  }
+
+  .icons {
+    width: 100%;
+  }
+
+  .icons-items {
+    justify-content: center;
+  }
+
+  .img-card {
+    display: flex;
+    justify-content: center;
+  }
+
+  .img-card img {
+    box-shadow: 5px 5px 10px;
+    overflow: hidden;
+    border-radius: 2rem;
+    width: 450px;
+  }
+}
+
+@media (min-width: 775px) and (max-width: 1250px) {
+  .header-name {
+    font-size: 4.6rem;
+  }
+
+  .header-content {
+    left: 21%;
+  }
+
+  .information-list {
+    flex-wrap: wrap;
+  }
+
+  .informations-list-details {
+    flex-basis: 100%;
+  }
+  .informations-datas li {
+    font-size: 1.9rem;
+  }
+
+  .informations-list-details-resume {
+    text-align: justify;
+  }
+
+  .informations-list-details-name {
+    font-size: 4.5rem;
+    text-align: center;
+  }
+
+  .informations-list-details-job {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  .img-card {
+    flex-basis: 60%;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px;
+    overflow: hidden;
+    border-radius: 2rem;
+  }
+  .img-card img {
+    margin: 0;
+  }
+
+  .section-about h2 {
+    text-align: center;
+    font-size: 4rem;
+  }
+}
