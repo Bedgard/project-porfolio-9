@@ -4,7 +4,7 @@
 
 @media (max-width: 774px) {
   .btn-mobile-nav {
-    display: inline-block;
+    display: block;
     margin-right: 2rem;
   }
 
