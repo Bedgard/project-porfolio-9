@@ -6,8 +6,8 @@
   .btn-mobile-nav {
     display: inline-block;
     position: fixed;
-    top: 0;
-    right: 0;
+    top: 1rem;
+    right: 1rem;
     z-index: 1000;
   }
 
