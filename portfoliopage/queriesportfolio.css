@@ -37,26 +37,15 @@
     width: 4rem;
     height: 4rem;
   }
-
-  .container-card {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 colonnes */
-    width: 100vw; /* largeur viewport */
-    max-width: 100%; /* jamais dépasser la largeur */
-    margin: 2rem auto; /* centré avec marge verticale */
-    padding: 0 1rem; /* padding horizontal */
-    column-gap: 1rem; /* petit écart entre colonnes */
-    row-gap: 5rem;
-    overflow-x: hidden; /* évite scroll horizontal */
-  }
 }
 
 @media (max-width: 1150px) {
   .container-card {
-    width: 100vw;
     row-gap: 12rem;
     column-gap: 2rem;
-    margin: 4rem 1rem;
+    margin-left: 4rem;
+    margin-right: 0rem;
+    margin-top: 12rem;
   }
 
   .card-img img {
