@@ -1,6 +1,9 @@
 /* PORTFOLIO PAGE */
 
 @media (max-width: 1315px) {
+  .main-nav-list {
+    display: none;
+  }
   .header-title {
     font-size: 6rem;
   }
