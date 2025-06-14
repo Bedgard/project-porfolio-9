@@ -1,9 +1,6 @@
 /* PORTFOLIO PAGE */
 
 @media (max-width: 1315px) {
-  .main-nav-list {
-    display: none;
-  }
   .header-title {
     font-size: 6rem;
   }
@@ -40,24 +37,15 @@
     width: 4rem;
     height: 4rem;
   }
-
-  .container-card {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr)); /* Colonnes flexibles */
-    column-gap: 2rem; /* Pas trop large */
-    row-gap: 7rem;
-  }
 }
 
 @media (max-width: 1150px) {
   .container-card {
     row-gap: 12rem;
     column-gap: 2rem;
-    padding-left: 4rem;
-    padding-right: 4rem; /* ajouter */
-    margin: 12rem auto 0 auto; /* remplacer margin-top + margin-right */
-    max-width: 100vw;
-    box-sizing: border-box;
+    margin-left: 4rem;
+    margin-right: 0rem;
+    margin-top: 12rem;
   }
 
   .card-img img {
@@ -87,13 +75,11 @@
 
 @media (max-width: 900px) {
   .container-card {
-    row-gap: 12rem;
+    row-gap: 7rem;
     column-gap: 2rem;
-    padding-left: 4rem;
-    padding-right: 4rem; /* ajouter */
-    margin: 12rem auto 0 auto; /* remplacer margin-top + margin-right */
-    max-width: 100vw;
-    box-sizing: border-box;
+    margin-left: 4rem;
+    margin-right: 1rem;
+    margin-top: 3rem;
   }
   .card-img {
     width: 66%;
@@ -139,12 +125,10 @@
 @media (max-width: 855px) {
   .container-card {
     row-gap: 12rem;
-    column-gap: 2rem;
-    padding-left: 4rem;
-    padding-right: 4rem; /* ajouter */
-    margin: 12rem auto 0 auto; /* remplacer margin-top + margin-right */
-    max-width: 100vw;
-    box-sizing: border-box;
+    column-gap: 5rem;
+    margin-left: 4rem;
+    margin-right: 2rem;
+    margin-top: 10rem;
   }
 }
 
@@ -200,13 +184,7 @@
 
 @media (max-width: 700px) {
   .container-card {
-    row-gap: 12rem;
-    column-gap: 2rem;
-    padding-left: 4rem;
-    padding-right: 4rem; /* ajouter */
-    margin: 12rem auto 0 auto; /* remplacer margin-top + margin-right */
-    max-width: 100vw;
-    box-sizing: border-box;
+    margin: 5rem 1.5rem;
   }
 
   .btn-scrolling {
