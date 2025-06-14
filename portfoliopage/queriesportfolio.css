@@ -54,8 +54,10 @@
     row-gap: 12rem;
     column-gap: 2rem;
     padding-left: 4rem;
-    margin-right: 0rem;
-    margin-top: 12rem;
+    padding-right: 4rem; /* ajouter */
+    margin: 12rem auto 0 auto; /* remplacer margin-top + margin-right */
+    max-width: 100vw;
+    box-sizing: border-box;
   }
 
   .card-img img {
@@ -85,11 +87,13 @@
 
 @media (max-width: 900px) {
   .container-card {
-    row-gap: 7rem;
+    row-gap: 12rem;
     column-gap: 2rem;
     padding-left: 4rem;
-    margin-right: 1rem;
-    margin-top: 3rem;
+    padding-right: 4rem; /* ajouter */
+    margin: 12rem auto 0 auto; /* remplacer margin-top + margin-right */
+    max-width: 100vw;
+    box-sizing: border-box;
   }
   .card-img {
     width: 66%;
@@ -135,10 +139,12 @@
 @media (max-width: 855px) {
   .container-card {
     row-gap: 12rem;
-    column-gap: 5rem;
+    column-gap: 2rem;
     padding-left: 4rem;
-    margin-right: 2rem;
-    margin-top: 10rem;
+    padding-right: 4rem; /* ajouter */
+    margin: 12rem auto 0 auto; /* remplacer margin-top + margin-right */
+    max-width: 100vw;
+    box-sizing: border-box;
   }
 }
 
@@ -194,7 +200,13 @@
 
 @media (max-width: 700px) {
   .container-card {
-    margin: 5rem 1.5rem;
+    row-gap: 12rem;
+    column-gap: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem; /* ajouter */
+    margin: 12rem auto 0 auto; /* remplacer margin-top + margin-right */
+    max-width: 100vw;
+    box-sizing: border-box;
   }
 
   .btn-scrolling {
