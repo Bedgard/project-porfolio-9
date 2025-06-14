@@ -37,6 +37,10 @@
     width: 4rem;
     height: 4rem;
   }
+
+  .container-card {
+    overflow-x: hidden;
+  }
 }
 
 @media (max-width: 1150px) {
