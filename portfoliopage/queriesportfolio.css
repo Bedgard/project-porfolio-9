@@ -37,15 +37,21 @@
     width: 4rem;
     height: 4rem;
   }
+
+  .container-card {
+    width: 90%;
+    max-width: 1200px;
+    margin: 5rem auto;
+    padding: 0 1rem;
+    overflow-x: hidden;
+  }
 }
 
 @media (max-width: 1150px) {
   .container-card {
     row-gap: 12rem;
     column-gap: 2rem;
-    margin-left: 4rem;
-    margin-right: 0rem;
-    margin-top: 12rem;
+    margin: 4rem 1rem;
   }
 
   .card-img img {
