@@ -53,7 +53,7 @@
   .container-card {
     row-gap: 12rem;
     column-gap: 2rem;
-    margin-left: 4rem;
+    padding-left: 4rem;
     margin-right: 0rem;
     margin-top: 12rem;
   }
@@ -87,7 +87,7 @@
   .container-card {
     row-gap: 7rem;
     column-gap: 2rem;
-    margin-left: 4rem;
+    padding-left: 4rem;
     margin-right: 1rem;
     margin-top: 3rem;
   }
@@ -136,7 +136,7 @@
   .container-card {
     row-gap: 12rem;
     column-gap: 5rem;
-    margin-left: 4rem;
+    padding-left: 4rem;
     margin-right: 2rem;
     margin-top: 10rem;
   }
