@@ -267,7 +267,7 @@
 
   .main-nav-list {
     display: none;
-    position: fixed;
+    position: fixed !important;
     top: 50px;
     left: 0;
     right: 0;
