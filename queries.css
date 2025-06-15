@@ -51,6 +51,9 @@
 }
 
 @media (max-width: 774px) {
+  .main-nav-list {
+    display: none;
+  }
   header {
     width: 100%;
   }
@@ -70,7 +73,6 @@
     left: 50%;
     display: inline-block;
     transform: translate(-50%, -50%);
-    z-index: 100;
   }
 
   .main-nav-list {
@@ -78,6 +80,7 @@
     justify-content: center;
     padding: 0;
     font-size: 1rem;
+    margin-right: 0;
   }
 
   .main-nav-link {

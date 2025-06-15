@@ -42,3 +42,24 @@ body {
   text-decoration-color: var(--color-primary);
   text-decoration-thickness: 4px;
 }
+
+/* MENU BURGER  */
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+  margin-left: auto;
+  margin-right: 2rem;
+}
+
+.icon-mobile-nav {
+  height: 3.8rem;
+  width: 3.8rem;
+  color: var(--color-primary);
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
