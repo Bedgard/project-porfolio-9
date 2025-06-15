@@ -227,10 +227,18 @@
 
 /*  MEDIA 680px  */
 @media (max-width: 680px) {
-  main {
-    padding-top: 60px; /* adapte selon la hauteur réelle de ta nav */
+  .header-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    z-index: 1000;
   }
 
+  main {
+    padding-top: 60px;
+  }
   .btn-mobile-nav {
     position: relative;
     width: 2.8rem;
@@ -271,7 +279,7 @@
 
   .main-nav-list {
     display: none;
-    position: fixed !important;
+    position: fixed;
     top: 50px;
     left: 0;
     right: 0;
