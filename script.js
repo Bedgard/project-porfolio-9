@@ -5,7 +5,7 @@ const navList = document.querySelector(".main-nav-list");
 open.addEventListener("click", () => {
   close.style.display = "block";
   open.style.display = "none";
-  navList.style.display = "flex";
+  navList.style.display = "block";
 });
 
 close.addEventListener("click", () => {
