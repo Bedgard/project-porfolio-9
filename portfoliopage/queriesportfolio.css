@@ -244,13 +244,11 @@
       transform: translateX(-1200px);
     }
     100% {
-      margin: auto 0;
       text-decoration: underline 4px var(--color-primary);
-      transform: translate(-50%, -50%);
       position: absolute;
-      top: 11%;
-      left: 50%;
-      font-size: 1.5rem;
+      top: 0.5%;
+      left: 5%;
+      font-size: 2rem;
     }
   }
 
@@ -266,7 +264,7 @@
 
   .main-nav-list {
     position: fixed;
-    top: 3rem;
+    top: 6rem;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -294,22 +292,6 @@
 }
 
 @media (max-width: 430px) {
-  .main-nav-list {
-    top: 6rem;
-  }
-
-  @keyframes letter-animation-mobile {
-    0% {
-      transform: translateX(-1200px);
-    }
-    100% {
-      text-decoration: underline 4px var(--color-primary);
-      position: absolute;
-      top: 0.5%;
-      left: 5%;
-      font-size: 2rem;
-    }
-  }
   .main-nav-list a {
     font-size: 1.3rem;
   }
