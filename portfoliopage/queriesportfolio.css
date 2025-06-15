@@ -232,6 +232,9 @@
 /*  MEDIA 500px  */
 
 @media (max-width: 500px) {
+  .btn-mobile-nav {
+    position: relative;
+  }
   .header-title {
     font-size: 2rem;
   }
@@ -250,13 +253,13 @@
     text-decoration-color: var(--color-primary);
     text-shadow: 2px 0px 1px var(--text-shadow);
     text-underline-offset: 6px;
-    position: absolute;
     top: 10px;
     left: 15px;
     font-size: 1.7rem;
     font-weight: bold;
     color: var(--color-white);
     letter-spacing: 4px;
+    position: absolute;
   }
 
   .container-card {
@@ -272,15 +275,11 @@
 
   .main-nav-list {
     position: fixed;
-    top: 5rem;
+    top: 8rem;
     left: 50%;
     transform: translateX(-50%);
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     gap: 0.8rem;
     list-style: none;
-    border-radius: 4rem;
     width: max-content;
     padding: 1.5rem;
     display: none;
