@@ -1,5 +1,7 @@
 /* HOME PAGE */
 
+/*  MEDIA 1250px  */
+
 @media (max-width: 1250px) {
   .header-name {
     font-size: 4.6rem;
@@ -49,6 +51,8 @@
     font-size: 4rem;
   }
 }
+
+/*  MEDIA 774px  */
 
 @media (max-width: 774px) {
   .main-nav-list {

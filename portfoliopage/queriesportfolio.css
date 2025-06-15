@@ -1,5 +1,8 @@
 /* PORTFOLIO PAGE */
 
+
+/*  MEDIA 1315px  */
+
 @media (max-width: 1315px) {
   .header-title {
     font-size: 6rem;
@@ -40,6 +43,9 @@
   }
 }
 
+
+/*  MEDIA 1150px  */
+
 @media (max-width: 1150px) {
   .container-card {
     row-gap: 12rem;
@@ -73,6 +79,9 @@
     display: none;
   }
 }
+
+
+/*  MEDIA 900px  */
 
 @media (max-width: 900px) {
   .header-title {
@@ -147,6 +156,8 @@
   }
 }
 
+/*  MEDIA 855px  */
+
 @media (max-width: 855px) {
   .container-card {
     row-gap: 12rem;
@@ -161,6 +172,8 @@
     height: 19rem;
   }
 }
+
+/*  MEDIA 735px  */
 
 @media (max-width: 735px) {
   .container-card {
@@ -195,6 +208,8 @@
   }
 }
 
+/*  MEDIA 700px  */
+
 @media (max-width: 700px) {
   .btn-mobile-nav {
     margin-top: 1rem;
@@ -216,6 +231,8 @@
     width: 100%;
   }
 }
+
+/*  MEDIA 500px  */
 
 @media (max-width: 500px) {
   .header-title {
