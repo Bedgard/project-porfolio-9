@@ -227,6 +227,10 @@
 
 /*  MEDIA 680px  */
 @media (max-width: 680px) {
+  main {
+    padding-top: 60px; /* adapte selon la hauteur réelle de ta nav */
+  }
+
   .btn-mobile-nav {
     position: relative;
     width: 2.8rem;
