@@ -231,6 +231,7 @@
     position: relative;
     width: 3.8rem;
     height: 3.8rem;
+    margin-top: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -251,6 +252,7 @@
     text-decoration-color: var(--color-primary);
     text-shadow: 2px 0px 1px var(--text-shadow);
     text-underline-offset: 6px;
+    top: 9px;
     left: 15px;
     font-size: 1.7rem;
     font-weight: bold;
@@ -292,13 +294,6 @@
 
   .icon-mobile-nav[name="menu-outline"] {
     display: block;
-  }
-
-  .main-nav {
-    border: 3px solid blue;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
   }
 }
 
