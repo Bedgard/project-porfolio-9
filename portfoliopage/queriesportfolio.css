@@ -87,7 +87,6 @@
     font-weight: 700;
     animation: letter-animation-mobile ease-in-out 1s forwards;
     text-transform: uppercase;
-    position: relative;
   }
 
   @keyframes letter-animation-mobile {
@@ -97,10 +96,7 @@
     100% {
       margin: auto 0;
       text-decoration: underline 4px var(--color-primary);
-      transform: translate(-50%, -50%);
-      position: absolute;
-      top: 18%;
-      left: 50%;
+      transform: translate(40%, 0);
       font-size: 3rem;
     }
   }
@@ -263,9 +259,9 @@
   }
 
   .container-card {
-    margin: 0rem 2rem 2rem 2rem;
-    padding-top: 13rem;
+    padding-top: 7rem; /* Enlève le padding top */
   }
+
   .btn-mobile-nav {
     display: block;
     width: 2.8rem;
@@ -275,7 +271,7 @@
 
   .main-nav-list {
     position: fixed;
-    top: 6rem;
+    top: 5rem;
     left: 50%;
     transform: translateX(-50%);
     gap: 0.8rem;
