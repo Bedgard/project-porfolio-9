@@ -253,13 +253,13 @@
     text-decoration-color: var(--color-primary);
     text-shadow: 2px 0px 1px var(--text-shadow);
     text-underline-offset: 6px;
-    top: 10px;
+    top: 11px;
     left: 15px;
     font-size: 1.7rem;
     font-weight: bold;
     color: var(--color-white);
     letter-spacing: 4px;
-    position: relative;
+    position: absolute;
   }
 
   .container-card {
@@ -274,7 +274,7 @@
   }
 
   .main-nav-list {
-    position: absolute;
+    position: fixed;
     top: 8rem;
     left: 50%;
     transform: translateX(-50%);
