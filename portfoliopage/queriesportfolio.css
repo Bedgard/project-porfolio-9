@@ -229,10 +229,12 @@
 @media (max-width: 680px) {
   .btn-mobile-nav {
     position: relative;
-    width: 2.8rem;
-    height: 2.8rem;
-    margin-top: 1rem;
-    display: block;
+    width: 3.8rem;
+    height: 3.8rem;
+    margin-top: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .main-nav-link::after {
@@ -250,7 +252,7 @@
     text-decoration-color: var(--color-primary);
     text-shadow: 2px 0px 1px var(--text-shadow);
     text-underline-offset: 6px;
-    top: 5px;
+    top: 7px;
     left: 15px;
     font-size: 1.7rem;
     font-weight: bold;
@@ -279,7 +281,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
-    border: 3px solid blue; /* pour debug, à enlever si tu veux */
+    margin-top: 5rem;
   }
 
   .main-nav-list a {
