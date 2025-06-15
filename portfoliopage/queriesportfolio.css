@@ -227,18 +227,6 @@
 
 /*  MEDIA 680px  */
 @media (max-width: 680px) {
-  .header-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 50px;
-    z-index: 1000;
-  }
-
-  main {
-    padding-top: 60px;
-  }
   .btn-mobile-nav {
     position: relative;
     width: 2.8rem;
@@ -279,7 +267,7 @@
 
   .main-nav-list {
     display: none;
-    position: fixed;
+    position: fixed !important;
     top: 50px;
     left: 0;
     right: 0;
@@ -291,7 +279,6 @@
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
-    z-index: 9999;
     border: 3px solid blue; /* pour debug, à enlever si tu veux */
   }
 
