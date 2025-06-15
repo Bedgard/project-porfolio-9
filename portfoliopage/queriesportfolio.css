@@ -3,6 +3,7 @@
 @media (max-width: 1315px) {
   .header-title {
     font-size: 6rem;
+    max-width: fit-content;
   }
   .container-card-text {
     font-size: 2.4rem;
