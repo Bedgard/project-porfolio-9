@@ -259,7 +259,7 @@
     font-weight: bold;
     color: var(--color-white);
     letter-spacing: 4px;
-    position: absolute;
+    position: relative;
   }
 
   .container-card {
@@ -274,7 +274,7 @@
   }
 
   .main-nav-list {
-    position: fixed;
+    position: absolute;
     top: 8rem;
     left: 50%;
     transform: translateX(-50%);
