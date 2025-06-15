@@ -280,7 +280,11 @@
     width: max-content;
     padding: 1.5rem;
     display: none;
+    z-index: 9999;
+    overflow: hidden;
   }
+
+
 
   .main-nav-list a {
     font-size: 2rem;

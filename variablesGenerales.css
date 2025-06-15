@@ -63,3 +63,8 @@ body {
 .icon-mobile-nav[name="close-outline"] {
   display: none;
 }
+
+.no-scroll {
+  overflow: hidden;
+  height: 100vh;
+}
