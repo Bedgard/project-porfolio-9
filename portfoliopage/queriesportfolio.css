@@ -253,7 +253,7 @@
     text-decoration-color: var(--color-primary);
     text-shadow: 2px 0px 1px var(--text-shadow);
     text-underline-offset: 6px;
-    top: 11px;
+    top: 12px;
     left: 15px;
     font-size: 1.7rem;
     font-weight: bold;
@@ -274,7 +274,7 @@
   }
 
   .main-nav-list {
-    position: fixed;
+    position: fixed !important;
     top: 8rem;
     left: 50%;
     transform: translateX(-50%);
