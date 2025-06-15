@@ -295,8 +295,24 @@
   }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 573px) {
+  .container-card-description {
+    font-size: 1.7rem;
+  }
+
+  .container-card {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 3rem;
+  }
+  .card-img {
+    width: 60%;
+  }
+
+  .omnifood {
+    grid-row: 4 / 5;
+  }
   .main-nav-list a {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
 }
