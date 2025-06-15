@@ -254,7 +254,7 @@
     font-size: 1.7rem;
     font-weight: bold;
     color: var(--color-white);
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     position: absolute;
   }
 
@@ -272,19 +272,17 @@
 
   .main-nav-list {
     position: fixed;
-    top: 5rem;
+    top: 3;
     left: 50%;
     transform: translateX(-50%);
     gap: 0.8rem;
     list-style: none;
     width: max-content;
-    padding: 1.5rem;
+    padding: 3.5rem;
     display: none;
     z-index: 9999;
     overflow: hidden;
   }
-
-
 
   .main-nav-list a {
     font-size: 2rem;
