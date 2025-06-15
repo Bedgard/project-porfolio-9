@@ -266,7 +266,7 @@
 
   .main-nav-list {
     position: fixed;
-    top: 2rem;
+    top: 3rem;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -293,7 +293,7 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 415px) {
   .main-nav-list {
     top: 2rem;
   }
