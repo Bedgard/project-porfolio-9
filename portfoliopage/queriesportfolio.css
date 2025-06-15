@@ -226,14 +226,15 @@
 }
 
 /*  MEDIA 680px  */
-
 @media (max-width: 680px) {
   .btn-mobile-nav {
     position: relative;
+    width: 2.8rem;
+    height: 2.8rem;
+    margin-top: 1rem;
+    display: block;
   }
-  .header-title {
-    font-size: 2rem;
-  }
+
   .main-nav-link::after {
     content: none;
     display: none;
@@ -256,6 +257,7 @@
     color: var(--color-white);
     letter-spacing: 2px;
     position: absolute;
+    font-size: 2rem;
   }
 
   .container-card {
@@ -263,27 +265,22 @@
     margin: 4rem 2rem 7rem 2rem;
   }
 
-  .btn-mobile-nav {
-    display: block;
-    width: 2.8rem;
-    height: 2.8rem;
-    margin-top: 1rem;
-  }
-
   .main-nav-list {
-    border: 3px solid blue;
+    display: none;
     position: fixed;
     top: 50px;
     left: 0;
     right: 0;
-    gap: 0.8rem;
+    width: 100%;
     margin: 0 auto;
+    padding: 0;
     list-style: none;
-    width: max-content;
-    padding: 0rem;
-    display: none;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
     z-index: 9999;
-    overflow: hidden;
+    border: 3px solid blue; /* pour debug, à enlever si tu veux */
   }
 
   .main-nav-list a {
