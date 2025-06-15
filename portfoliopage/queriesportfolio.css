@@ -80,6 +80,7 @@
     letter-spacing: 1.75px;
     font-weight: 700;
     animation: letter-animation-mobile ease-in-out 1s forwards;
+    text-decoration: underline 4px var(--color-primary);
     text-transform: uppercase;
     position: relative;
   }
@@ -90,7 +91,6 @@
     }
     100% {
       margin: auto 0;
-      text-decoration: underline 4px var(--color-primary);
       transform: translate(-50%, -50%);
       position: absolute;
       top: 18%;
@@ -253,7 +253,7 @@
   }
 
   .container-card {
-    margin: 0rem 2rem 2rem 2rem;
+    margin: 3rem 2rem 2rem 2rem;
     padding-top: 12rem;
   }
   .btn-mobile-nav {
