@@ -2,14 +2,12 @@
 
 Welcome to my personal portfolio website! This site showcases my skills, projects, and professional background as a web developer.
 
----
 
 ## Live Demo
 
 Check out the live version of my portfolio here:  
 [https://bedgard.github.io/personalWebSite-porfolio-8/](https://bedgard.github.io/personalWebSite-porfolio-8/)
 
----
 
 ##  Description
 
@@ -20,7 +18,6 @@ This portfolio serves as a showcase of my professional and personal projects. It
 - A downloadable PDF resume  
 - Sections highlighting my projects and contact information  
 
----
 
 ##  Technologies Used
 
