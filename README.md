@@ -1,4 +1,4 @@
-# Bedgard – Personal Portfolio
+# Personal Portfolio
 
 Welcome to my personal portfolio website! This site showcases my skills, projects, and professional background as a web developer.
 
