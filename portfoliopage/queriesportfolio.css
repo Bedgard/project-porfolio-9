@@ -265,13 +265,13 @@
 
   .container-card {
     padding-top: 7rem;
-    margin: 4rem 2rem 7rem 2rem;
+    margin: 4rem 2rem 5rem 2rem;
   }
 
   .main-nav-list {
     display: none;
-    position: sticky;
-    top: 50px;
+    position: fixed;
+    top: 24px;
     left: 0;
     right: 0;
     width: 100%;
