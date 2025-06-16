@@ -226,6 +226,7 @@
 }
 
 /*  MEDIA 680px  */
+
 @media (max-width: 680px) {
   .btn-mobile-nav {
     position: relative;
@@ -296,6 +297,8 @@
     display: block;
   }
 }
+
+/*  MEDIA 573px  */
 
 @media (max-width: 573px) {
   .container-card-description {
