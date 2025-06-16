@@ -11,11 +11,6 @@ Check out the live version of my portfolio here:
 
 ---
 
-## 📄 Resume (CV)
-
-You can download my resume here:  
-👉 [CV benjaminEdgard.pdf](https://github.com/Bedgard/personalWebSite-porfolio-8/blob/main/CV%20benjaminEdgard.pdf)
-
 ##  Description
 
 This portfolio serves as a showcase of my professional and personal projects. It includes:
