@@ -254,7 +254,7 @@
     text-decoration-color: var(--color-primary);
     text-shadow: 2px 0px 1px var(--text-shadow);
     text-underline-offset: 6px;
-    top: 14px;
+    top: 12px;
     left: 15px;
     font-size: 1.7rem;
     font-weight: bold;
@@ -275,10 +275,10 @@
     left: 0;
     right: 0;
     z-index: 1100;
-    height: 51px;
+    height: 45px;
     display: flex;
     align-items: center;
-    padding: 0.5rem 1rem 0rem 1rem;
+    padding: 0 1rem 0rem 1rem;
   }
 
   .main-nav-list {
