@@ -8,7 +8,7 @@ FONT SIZE SYSTEM (px)
 
 /* PAGE HOME  */
 
-@import url("variablesGenerales.css");
+@import url("globalvariables.css");
 @import url("header.css");
 @import url("navBar.css");
 @import url("section-about.css");
