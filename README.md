@@ -26,5 +26,4 @@ This portfolio serves as a showcase of my professional and personal projects. It
 
 - **HTML5** – Semantic content structure  
 - **CSS3** – Responsive layout and design  
-- **JavaScript** – Interactive features and client-side scripting  
--  
+- **JavaScript** – Used for the burger menu toggle
