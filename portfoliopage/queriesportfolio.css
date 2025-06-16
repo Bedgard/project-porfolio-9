@@ -254,7 +254,7 @@
     text-decoration-color: var(--color-primary);
     text-shadow: 2px 0px 1px var(--text-shadow);
     text-underline-offset: 6px;
-    top: 11px;
+    top: 9px;
     left: 15px;
     font-size: 1.7rem;
     font-weight: bold;
@@ -275,7 +275,7 @@
     left: 0;
     right: 0;
     z-index: 1100;
-    height: 46px;
+    height: 55px;
     display: flex;
     align-items: center;
     padding: 0 1rem;
